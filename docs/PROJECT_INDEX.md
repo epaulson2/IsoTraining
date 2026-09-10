@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 2 complete — Programming Architecture locked.**
+**Phase 3 — Beginner Programming complete.**
 
-Phase 1 established and audited the exercise library. Phase 2 now defines the programming rules that all beginner, intermediate and advanced plans must follow.
+Phase 1 established and audited the exercise library. Phase 2 locked the programming rules. Phase 3 now includes a complete week-by-week beginner program built from those rules.
 
 ## Architecture and templates
 
@@ -17,6 +17,7 @@ Phase 1 established and audited the exercise library. Phase 2 now defines the pr
 
 - [Programming Principles](04-programming/PROGRAMMING_PRINCIPLES.md) — intensity, duration, accumulated time, rest, frequency, progression, stop criteria, pairing logic and deload rules
 - [Program-Level Architecture](04-programming/PROGRAM_LEVEL_ARCHITECTURE.md) — beginner, intermediate and advanced structure
+- [Beginner 8-Week Program](04-programming/beginner/BEGINNER_8_WEEK_PROGRAM.md) — locked beginner week-by-week plan
 
 ## Completed movement families
 
@@ -92,6 +93,31 @@ A trainee progresses only when the current prescription is completed cleanly in 
 
 Default for plans longer than four weeks: **3 build weeks + 1 consolidation week**. Consolidation reduces accumulated time by roughly 30–40% and high-intent sets by about one third while preserving technique and frequency.
 
+## Beginner program summary
+
+The locked beginner program uses **3 nonconsecutive full-body sessions per week for 8 weeks**.
+
+- **Weeks 1–2:** Learn Mode and low-fatigue position acquisition.
+- **Week 3:** first meaningful accumulation of position work.
+- **Week 4:** consolidation.
+- **Weeks 5–7:** build toward 60–90 seconds accumulated quality work while introducing a small amount of targeted strap training.
+- **Week 8:** consolidate and reassess readiness rather than testing maximum holds.
+
+The repeated beginner anchors are the lunge, wall squat, standing hamstring, Extreme Push-Up, body-supported row, and active scapular hang. Calf, lateral-stance, strap chest press, external rotation, preacher curl, and overhead triceps work are supporting exposures rather than equally weighted priorities.
+
+## Beginner graduation target
+
+The trainee should be able to:
+
+- independently reproduce the major Tier A setups;
+- perform 20–30 second clean integrated holds;
+- accumulate roughly 60–90 seconds of quality work on the main positions;
+- perform short strap isometrics around 7/10 effort without posture changes;
+- maintain the intended force direction and distinguish muscular effort from passive joint loading;
+- recover normally across three weekly sessions.
+
+If these criteria are not met, repeat the later beginner weeks or remain on the appropriate regression rather than progressing by calendar alone.
+
 ## Major audit changes already incorporated
 
 - Retained all 13 families for educational completeness.
@@ -107,16 +133,16 @@ Default for plans longer than four weeks: **3 build weeks + 1 consolidation week
 
 ## Next phase
 
-**Phase 3 — Actual Programs**
+**Phase 4 — Intermediate Program**
 
 Recommended order:
 
-1. Build the beginner program week by week.
-2. Validate exercise order, session length and weekly balance against the locked rules.
-3. Build the intermediate program.
-4. Build the advanced progression, introducing Extreme Slow and later force-absorption / rebound work only after competency gates.
-5. Develop illustration / force-map requirements from the final Learn Mode specs.
-6. Begin manual / PDF assembly only after the programs are stable.
+1. Build the intermediate plan from the beginner graduation criteria.
+2. Increase accumulated time and targeted high-intent work selectively.
+3. Introduce selected Tier B exercises and higher leverage only where they add value.
+4. Introduce Extreme Slow near the later intermediate stage for trainees who meet competency gates.
+5. After intermediate programming is stable, build the advanced progression.
+6. Develop illustration / force-map requirements and begin manual / PDF assembly only after the programs are stable.
 
 ## Publication principle
 
