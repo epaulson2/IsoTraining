@@ -2,11 +2,13 @@
 
 ## Status
 
-**Initial technical draft — requires deeper source and biomechanics validation before publication.**
+**Technically validated draft — core Extreme Push-Up cues materially clarified.**
+
+See: [Deep Validation — First Three Families](../../01-research/FIRST_THREE_FAMILIES_DEEP_VALIDATION_2026-09-10.md)
 
 ## Family role
 
-This family deliberately combines two distinct benefits:
+This family combines:
 
 - **Integrated bodyweight pushing** for whole-body stabilization, scapular control and positional strength.
 - **Targeted strap pressing** for precise joint-angle control and concentrated high-intent force production.
@@ -28,160 +30,147 @@ Neither replaces the other.
 ### C. Strap Extreme Chest Press
 - **Type:** Targeted
 - **Provenance:** Evidence-based extension
-- **Use:** Long-position chest loading with precise resistance and minimal balance limitation
+- **Use:** Precise long-position chest loading with reduced stabilization demand
 
-## Extreme Push-Up — technical draft
+## Extreme Push-Up
 
 ### Purpose
 
-Train the chest, triceps and anterior shoulder within a demanding whole-body position while maintaining trunk, scapular and shoulder organization.
+Train the chest, triceps and anterior shoulder under active length while the posterior shoulder / upper-back musculature actively pulls the athlete deeper. The drill is a co-contraction exercise, not merely a bottom-position push-up hold.
 
-### Setup
+### High-confidence setup
 
-- Hands approximately around normal push-up width, adjusted for individual shoulder comfort.
-- Fingers spread and palms actively loaded.
-- Body maintained as one organized unit from head through pelvis.
-- Elbows should not be forced into either extreme flare or extreme tuck; use a shoulder-friendly path.
-- The working depth should place the chest / shoulder complex under meaningful tension without dumping load into the front of the shoulder.
+- Establish a rigid plank-like trunk.
+- Use hand width that permits a comfortable, repeatable shoulder path.
+- In the working position, **forearms should be approximately perpendicular to the floor**.
+- Descend into a deep position only as far as active shoulder and trunk control are maintained.
+- Historical EvoCode users often performed the drill between blocks / chairs to permit the chest to travel below hand level; this is an advanced range option, not a beginner requirement.
+- Elbows around 30–60 degrees from the torso are a reasonable practical zone; roughly 45 degrees is a useful default, but forearm-to-floor orientation is the more important historical landmark.
 
-### Active intent
+### Active intent — the critical part
 
-The athlete should not simply hover at the bottom of a push-up.
+Do not simply try to press upward.
 
-At the working depth:
-
-1. maintain active hand pressure into the floor;
-2. preserve trunk stiffness and pelvic position;
-3. actively create horizontal pressing tension;
-4. attempt to move deeper only to the extent that muscular control is maintained rather than collapsing passively.
+1. Actively **pull yourself toward the floor**.
+2. Think of the upper-body action as a row: use the biceps / upper back / posterior shoulder musculature to draw the torso deeper.
+3. Simultaneously keep the chest, anterior shoulder and triceps active enough to resist and control that descent.
+4. The pecs should lengthen under active control rather than switch off into a passive stretch.
+5. Continue attempting to move deeper only while the whole-body position remains organized.
 
 ### What should remain stable
 
+- hands;
+- forearms approximately vertical;
+- elbow path;
 - rib cage / pelvis relationship;
 - head and neck;
-- hand position;
-- shoulder position;
-- elbow path.
+- shoulder position without uncontrolled collapse.
 
 ### What you should feel
 
-Primary effort should be muscular through the chest, triceps, anterior shoulder and trunk. Avoid sharp anterior-shoulder pressure, wrist pain or a pinching sensation at the bottom.
+A strong combination of chest / anterior-shoulder loading and upper-back / biceps pulling intent, plus trunk tension. Avoid sharp anterior-shoulder pressure, wrist pain or a sense of resting at the end of shoulder range.
 
 ## Learn Mode sequence — Extreme Push-Up
 
 ### Step 1 — Learn the plank
-Establish a straight, controlled trunk before lowering.
+Create one organized line from head through pelvis before worrying about depth.
 
-### Step 2 — Set the hands
-Find a width and rotation that allows comfortable shoulder motion.
+### Step 2 — Set hands and forearms
+Choose hand width so that, at the intended bottom position, the forearms can remain close to vertical.
 
-### Step 3 — Practice elbow path
-Lower only slightly and learn to keep the elbows tracking consistently.
+### Step 3 — Learn the elbow path
+Use a repeatable path rather than suddenly flaring or pinning the elbows to the ribs.
 
-### Step 4 — Organize the scapulae
-Allow natural scapular movement while avoiding uncontrolled shoulder collapse.
+### Step 4 — Learn the row-down action at an incline
+On a wall or high incline, intentionally pull the chest toward the support using the upper back / biceps while keeping the hands fixed.
 
-### Step 5 — Find the working bottom position
-Use an incline or knees if necessary so depth can be learned without excessive fatigue.
+### Step 5 — Add anterior resistance
+Keep the chest and triceps active so the downward pull is resisted rather than becoming a passive stretch.
 
-### Step 6 — Create pressing tension
-At low effort, push into the floor while preventing visible movement.
+### Step 6 — Transfer to a lower incline / floor
+Maintain the same pull-down + resist relationship as leverage becomes harder.
 
-### Step 7 — Add whole-body tension
-Maintain glutes, trunk and leg position so the torso does not sag or pike.
+### Step 7 — Find the deepest active position
+Stop descending when shoulder control, trunk position or anterior-chain activity begins to disappear.
 
-### Step 8 — Add Extreme-Iso intent
-Maintain the bottom position while actively increasing muscular effort and attempting a controlled deeper position without passive collapse.
-
-### Step 9 — Competency hold
-Hold 8–15 seconds with clean trunk and shoulder mechanics.
+### Step 8 — Competency hold
+Perform 8–15 seconds with continuous pull-down intent, active anterior resistance, vertical forearms and stable trunk.
 
 ## Common compensations
 
-- **Hips sag:** regress the leverage and restore trunk control.
-- **Shoulders dump forward:** reduce depth and re-establish active support.
-- **Elbows flare abruptly:** choose a more repeatable shoulder-friendly path.
-- **Neck reaches toward floor:** keep head aligned with trunk.
-- **Passive bottom hang:** increase active pressing intent or reduce depth.
+- **Passive bottom hang:** reduce depth and restore pull-down + resist intent.
+- **Shoulders dump forward:** reduce depth and rebuild active shoulder control.
+- **Forearms angle substantially away from vertical:** adjust hand position or depth.
+- **Hips sag / pike:** regress leverage and restore trunk organization.
+- **Elbows flare abruptly:** use a more repeatable shoulder-friendly path.
+- **Neck reaches toward the floor:** keep the head aligned with the trunk.
 
 ## Regressions
 
-- standing wall push-off;
-- high incline push-up;
-- lower incline push-up;
-- knees-supported bottom hold.
+- standing wall / doorway push-off;
+- high incline;
+- lower incline;
+- knees-supported floor version;
+- shallower range;
+- short teaching contractions.
 
 ## Advanced variations
 
-- deeper controlled position if shoulder anatomy tolerates it;
-- longer accumulated holds;
-- external loading;
+- chest below hand level between stable blocks / parallettes;
+- longer accumulated duration;
+- external load;
 - Extreme Slow push-up;
-- push-up Extreme Iso paired later with explosive / rebound pushing.
+- later pairing with drops / rebounds or explosive push-ups where appropriate.
 
 ## Workout-mode cues
 
-**Rigid trunk • active shoulders • press hard while controlling depth**
+**Forearms vertical • rigid trunk • row yourself down • chest stays active • never hang passively**
+
+---
+
+# Standing Push-Off / Standing Push-Up
+
+## Role
+
+This is both a historically associated EVO position and an excellent Learn Mode regression for teaching the push-up's unusual internal intent.
+
+### Core cue
+
+Stand at a wall / doorway in a pressing stance and actively pull the torso toward the support while the chest and triceps resist. The learning goal is to feel the same posterior pull + anterior resistance used in the floor Extreme Push-Up.
 
 ---
 
 # Strap Extreme Chest Press
 
-## Concept
+## Classification
 
-Use a non-elastic adjustable strap around the back so the handles stop the hands at a predetermined pressing position. The athlete presses maximally or submaximally against the immovable strap.
+**Evidence-Based Extension — targeted overcoming isometric.**
 
-## Why it belongs
+## Purpose
 
-This variation allows:
+Use a non-elastic adjustable strap to fix the pressing joint angle and allow deliberate high-intent force production without requiring bodyweight stabilization.
 
-- precise chest / shoulder joint angle;
-- concentrated pressing intent;
-- reduced balance and trunk limitation;
-- easy scaling by changing strap length and effort.
+## Learn Mode sequence
 
-It complements the Extreme Push-Up's integrated stabilization demands.
+1. Route the strap securely around the upper back, never the neck.
+2. Set handles near the intended press path.
+3. Adjust strap length so the chest is meaningfully lengthened but the shoulder is not forced into painful extension.
+4. Keep wrists neutral and forearms aligned with the press vector.
+5. Organize rib cage and shoulders without excessive shrug or rib flare.
+6. Build force gradually against the immovable strap.
+7. Hold the selected angle without letting the shoulders roll forward.
+8. Perform a brief 6–10 second competency effort before progressing intensity.
 
-## Learn Mode sequence — Strap Chest Press
+## Why it remains separate from the bodyweight version
 
-### Step 1 — Route the strap
-Place it around the upper back in a stable, non-slipping position. Avoid routing across the neck.
-
-### Step 2 — Set handle height
-Choose a press path around mid-chest level initially.
-
-### Step 3 — Set strap length
-Adjust until the handles stop the hands in a moderately lengthened chest position without forcing excessive shoulder extension.
-
-### Step 4 — Stack wrist and forearm
-Keep wrists reasonably neutral and forearms aligned with the intended press direction.
-
-### Step 5 — Organize shoulders and rib cage
-Avoid shrugging, excessive rib flare or anterior shoulder dumping.
-
-### Step 6 — Build tension gradually
-Start around low-to-moderate intent and verify the chest is taking the load.
-
-### Step 7 — Press against the immovable endpoint
-Increase force while maintaining the selected joint angle.
-
-### Step 8 — Competency effort
-Perform a brief 6–10 second controlled contraction without losing shoulder or wrist position.
-
-## Strap-specific cautions
-
-- The strap should be structurally rated for the force applied.
-- Inspect stitching, handles and adjustment hardware regularly.
-- Avoid maximal force during the learning phase.
-- Stop if there is sharp shoulder, chest-wall, wrist or neck discomfort.
+The strap press is valuable because it offers precise joint-angle and force control, but it removes much of the whole-body stabilization and active-descending skill that define the integrated Extreme Push-Up. It should therefore complement rather than replace the bodyweight drill.
 
 ## Workout-mode cues
 
-**Set the deep angle • shoulders organized • press into the strap without changing position**
+**Set the deep angle • shoulders organized • press hard into the strap • angle does not change**
 
-## Open research questions
+## Remaining research questions
 
-1. Lock historical EVO details for the Extreme Push-Up and Standing Push-Off.
-2. Determine the most defensible range of shoulder extension for the strap press.
-3. Decide whether multiple strap press angles deserve separate program variants or remain one family.
-4. Validate how much scapular motion should be encouraged in each version.
+1. Establish a practical consumer-facing shoulder-extension range for the strap press.
+2. Decide whether high / mid / low press angles deserve programmed variants.
+3. Determine whether we want to teach deep block-supported push-ups at intermediate or advanced level only.
