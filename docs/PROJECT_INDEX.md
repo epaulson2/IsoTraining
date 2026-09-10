@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 1 complete — Exercise Library + Position Learning System audited and locked for programming.**
+**Phase 2 complete — Programming Architecture locked.**
 
-Goal achieved: validate movement families, define Learn Mode, separate provenance, and reduce the full library into practical programming tiers before writing beginner / intermediate / advanced plans.
+Phase 1 established and audited the exercise library. Phase 2 now defines the programming rules that all beginner, intermediate and advanced plans must follow.
 
 ## Architecture and templates
 
@@ -12,6 +12,11 @@ Goal achieved: validate movement families, define Learn Mode, separate provenanc
 - [Exercise Specification Template](02-exercises/EXERCISE_SPEC_TEMPLATE.md)
 - [Position Learning Template](03-position-learning/POSITION_LEARNING_TEMPLATE.md)
 - [Exercise Master List](02-exercises/EXERCISE_MASTER_LIST.md) — canonical post-audit tiered inventory
+
+## Programming source of truth
+
+- [Programming Principles](04-programming/PROGRAMMING_PRINCIPLES.md) — intensity, duration, accumulated time, rest, frequency, progression, stop criteria, pairing logic and deload rules
+- [Program-Level Architecture](04-programming/PROGRAM_LEVEL_ARCHITECTURE.md) — beginner, intermediate and advanced structure
 
 ## Completed movement families
 
@@ -27,7 +32,7 @@ Goal achieved: validate movement families, define Learn Mode, separate provenanc
 10. [Adductor / Lateral-Stance Family](02-exercises/families/10_ADDUCTOR_LATERAL_STANCE_FAMILY.md)
 11. [Hip Flexor / Long-Split Family](02-exercises/families/11_HIP_FLEXOR_LONG_SPLIT_FAMILY.md)
 12. [Shoulder Rotation / Stabilization Family](02-exercises/families/12_SHOULDER_ROTATION_STABILIZATION_FAMILY.md)
-13. [Anterior Chain / Quadriceps Family](02-exercises/families/13_QUADRICEPS_LONG_LENGTH_FAMILY.md) — conceptually renamed after audit
+13. [Anterior Chain / Quadriceps Family](02-exercises/families/13_QUADRICEPS_LONG_LENGTH_FAMILY.md)
 
 ## Research notes
 
@@ -44,7 +49,7 @@ Goal achieved: validate movement families, define Learn Mode, separate provenanc
   - Schroeder / EVO Original
   - Schroeder-Derived
   - Evidence-Based Extension
-- Programming uses three tiers:
+- Programming uses three exercise tiers:
   - **Tier A — Programming Core**
   - **Tier B — Secondary / Developmental**
   - **Tier C — Optional / Accessory**
@@ -52,7 +57,42 @@ Goal achieved: validate movement families, define Learn Mode, separate provenanc
 - “Extreme” means the deepest/longest actively controllable position, not forced passive range.
 - Duration and contraction intensity are separate programming variables.
 
-## Major audit changes
+## Locked programming model
+
+### Two distinct training modes
+
+1. **Position / Extreme-Iso work** — longer, submaximal-to-hard holds emphasizing position, active intent, stabilization and accumulated time.
+2. **High-intent targeted isometrics** — short, high-force efforts at controlled joint angles, usually with straps/supports.
+
+These are not interchangeable and should not automatically use the same duration or effort prescription.
+
+### Default level structure
+
+- **Beginner:** 3 full-body sessions/week; 4–6 exercises/session; integrated-dominant; holds mostly 10–30 sec; 30–90 sec accumulated per exercise.
+- **Intermediate:** 3–4 sessions/week; 5–7 exercises/session; balanced integrated + targeted work; holds mostly 20–45 sec; 60–150 sec accumulated.
+- **Advanced:** typically 4 sessions/week; block-specific method emphasis; selected holds 30–60+ sec and 2–5 min accumulated where appropriate; short high-intent efforts remain separate.
+
+### Effort conventions
+
+- Learn Mode: 3–5/10
+- Foundation position work: 5–6/10
+- Hard training work: 7–8/10
+- Advanced high-intent work: ~9/10
+- 10/10 maximal efforts are rarely needed and are not used by beginners
+
+### Progression hierarchy
+
+**Technique → active intent → bout duration → accumulated time → effort → leverage/load → Extreme Slow → force absorption → rebound/reactive work**
+
+### Progression gate
+
+A trainee progresses only when the current prescription is completed cleanly in at least two sessions with stable geometry, correct force direction, controlled exit and no sharp pain/pinching/numbness/tingling.
+
+### Deload / consolidation convention
+
+Default for plans longer than four weeks: **3 build weeks + 1 consolidation week**. Consolidation reduces accumulated time by roughly 30–40% and high-intent sets by about one third while preserving technique and frequency.
+
+## Major audit changes already incorporated
 
 - Retained all 13 families for educational completeness.
 - Reduced routine programming to a smaller Tier A core.
@@ -67,16 +107,16 @@ Goal achieved: validate movement families, define Learn Mode, separate provenanc
 
 ## Next phase
 
-**Phase 2 — Programming Architecture**
+**Phase 3 — Actual Programs**
 
 Recommended order:
 
-1. Define programming variables: intensity, duration, accumulated time, frequency, rest, progression, regression, fatigue/stop criteria and deload logic.
-2. Decide how integrated and targeted exercises should be paired or alternated.
-3. Build the beginner progression first.
-4. Build intermediate programming.
-5. Build advanced method progression, including Extreme Slow and selective force-absorption / rebound integration.
-6. Develop illustration / force-map requirements from the locked Learn Mode specifications.
+1. Build the beginner program week by week.
+2. Validate exercise order, session length and weekly balance against the locked rules.
+3. Build the intermediate program.
+4. Build the advanced progression, introducing Extreme Slow and later force-absorption / rebound work only after competency gates.
+5. Develop illustration / force-map requirements from the final Learn Mode specs.
+6. Begin manual / PDF assembly only after the programs are stable.
 
 ## Publication principle
 
