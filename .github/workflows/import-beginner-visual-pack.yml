@@ -1,0 +1,80 @@
+name: Import Beginner Visual Pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'IsoTraining_Beginner_Visual_Pack_GitHubReady.zip'
+
+permissions:
+  contents: write
+
+jobs:
+  import-assets:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract visual pack
+        run: |
+          set -euo pipefail
+          rm -rf .visual-pack-import
+          mkdir -p .visual-pack-import
+          unzip -q IsoTraining_Beginner_Visual_Pack_GitHubReady.zip -d .visual-pack-import
+          test -d .visual-pack-import/assets/beginner
+          mkdir -p assets/beginner
+          cp -a .visual-pack-import/assets/beginner/. assets/beginner/
+
+      - name: Verify all 24 canonical assets
+        run: |
+          set -euo pipefail
+          expected=(
+            assets/beginner/exercise-plates/01_extreme_lunge.webp
+            assets/beginner/exercise-plates/02_wall_squat.webp
+            assets/beginner/exercise-plates/03_standing_hamstring.webp
+            assets/beginner/exercise-plates/04_extreme_push_up.webp
+            assets/beginner/exercise-plates/05_body_supported_row.webp
+            assets/beginner/exercise-plates/06_scapular_active_hang.webp
+            assets/beginner/exercise-plates/07_straight_knee_calf.webp
+            assets/beginner/exercise-plates/08_bent_knee_calf.webp
+            assets/beginner/exercise-plates/09_lateral_lunge_cossack.webp
+            assets/beginner/exercise-plates/10_strap_chest_press.webp
+            assets/beginner/exercise-plates/11_strap_external_rotation.webp
+            assets/beginner/exercise-plates/12_preacher_curl.webp
+            assets/beginner/exercise-plates/13_strap_overhead_triceps.webp
+            assets/beginner/exercise-plates/14_supported_sissy_squat.webp
+            assets/beginner/learn-mode/LM01_extreme_lunge.webp
+            assets/beginner/learn-mode/LM02_wall_squat.webp
+            assets/beginner/learn-mode/LM03_standing_hamstring.webp
+            assets/beginner/learn-mode/LM04_extreme_push_up.webp
+            assets/beginner/learn-mode/LM05_scapular_active_hang.webp
+            assets/beginner/learn-mode/LM06_strap_chest_press.webp
+            assets/beginner/session-maps/session_A.webp
+            assets/beginner/session-maps/session_B.webp
+            assets/beginner/session-maps/session_C.webp
+            assets/beginner/guides/how_to_read_diagrams.webp
+          )
+          for f in "${expected[@]}"; do
+            test -s "$f" || { echo "Missing or empty: $f"; exit 1; }
+          done
+          count=$(find assets/beginner/exercise-plates assets/beginner/learn-mode assets/beginner/session-maps assets/beginner/guides -type f -name '*.webp' | wc -l)
+          test "$count" -eq 24 || { echo "Expected 24 WebP assets; found $count"; exit 1; }
+
+      - name: Commit imported assets and remove transport ZIP
+        run: |
+          set -euo pipefail
+          rm -rf .visual-pack-import
+          rm -f IsoTraining_Beginner_Visual_Pack_GitHubReady.zip
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/beginner IsoTraining_Beginner_Visual_Pack_GitHubReady.zip
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Import 24 canonical beginner visual assets'
+          git push
