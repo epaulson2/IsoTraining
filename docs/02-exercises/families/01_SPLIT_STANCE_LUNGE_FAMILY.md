@@ -2,11 +2,13 @@
 
 ## Status
 
-**Initial technical draft — requires deeper source validation before publication.**
+**Technically validated draft — historical geometry and internal-force cues substantially clarified.**
+
+See: [Deep Validation — First Three Families](../../01-research/FIRST_THREE_FAMILIES_DEEP_VALIDATION_2026-09-10.md)
 
 ## Family role
 
-This family is one of the core anchors of the system because it combines long-position lower-body loading, unilateral stabilization, trunk control and active muscular intent.
+This family is a core anchor because it combines long-position lower-body loading, unilateral stabilization, trunk control and deliberate co-contraction.
 
 ## Primary versions
 
@@ -25,128 +27,115 @@ This family is one of the core anchors of the system because it combines long-po
 - **Provenance:** Evidence-based extension
 - **Use:** Increase local intent while reducing balance as the limiting factor
 
-## Integrated Extreme Lunge — technical draft
+## Integrated Extreme Lunge
 
 ### Purpose
 
-Train unilateral lower-body position, force distribution, hip / knee stabilization and the ability to actively create tension while remaining in a deep split stance.
+Train the ability to maintain a deep split stance while the front hamstring and rear glute / hip musculature create opposing internal force. The exercise is not a generic split-squat hold.
 
-### Setup
+### High-confidence historical setup
 
-- Feet remain on separate front-back tracks rather than a tightrope line.
-- Front foot stays fully planted.
-- Rear foot position may vary by mobility and source-specific variation; default to a stable forefoot-supported stance until source review is complete.
-- Torso remains controlled rather than collapsing onto the front thigh.
-- Pelvis should remain organized and approximately square rather than opening excessively toward one side.
+- Use a **long split stance** rather than a short, upright split squat.
+- Front and rear feet should stay on stable parallel tracks rather than a tightrope line.
+- The **front lower leg is approximately perpendicular to the floor** in the classic version.
+- The **front thigh is approximately parallel to the floor** as a useful target, but individual depth can vary.
+- The **rear leg reaches far back** while remaining actively controlled.
+- Torso and head stay tall / proud rather than folding over the front thigh.
+- Arms may remain relaxed at the sides in the classic drill.
 
-### Working depth
+A slightly elevated front heel appears in one detailed historical coaching appendix, but flat-ground, front-foot-elevated and rear-foot-elevated variants are also reported. Therefore heel elevation is a **variation**, not a universal rule.
 
-Descend only as far as the trainee can maintain:
+### Active intent — the critical part
 
-- stable front-foot pressure;
-- controlled knee tracking;
-- pelvis / trunk organization;
-- active muscular tension rather than passive hanging.
+The position should feel like the legs are trying to **scissor toward one another** while the feet remain fixed.
 
-Depth is individualized. Deeper is not automatically better if alignment is lost.
+1. **Front leg:** maximally contract the front hamstring and try to drag the front foot backward along the floor without actually moving it.
+2. **Rear leg:** strongly contract the rear glute and drive the rear foot backward into the ground and/or attempt to bring the rear thigh forward.
+3. Maintain both actions simultaneously.
+4. Continue attempting to move deeper while the opposing musculature keeps the position controlled.
 
-### Active intent
-
-The defining action is **not merely holding the bottom of a lunge**. Historical EVO descriptions indicate active muscular actions through both legs, including a front-leg pulling / hamstring contribution and an active rear-leg contribution.
-
-For the current draft, teach the trainee to:
-
-1. maintain pressure through the entire front foot;
-2. actively create tension through the front leg as though trying to pull the body deeper without allowing the foot to move;
-3. actively engage the rear leg rather than letting it hang passively;
-4. keep the visible body position controlled while the internal effort increases.
-
-**Open item:** the exact directional cueing of the front hamstring and rear leg will be locked only after the primary-source technical review.
+A direct EVO trainee independently described the lead leg as trying to perform a leg curl through the hamstrings while the rear leg maintains tension backward and upward. This strongly supports the front-hamstring / rear-glute emphasis.
 
 ### What should remain stable
 
-- front foot contact;
-- knee tracking relative to the foot;
+- front-foot contact;
+- front-shin orientation;
+- knee tracking;
 - pelvis orientation;
-- trunk angle;
+- tall / controlled torso;
 - head / neck position.
 
 ### What you should feel
 
-Primary muscular effort should be distributed through the working lower body rather than concentrated as sharp pressure in the front knee, rear knee or hip joint.
-
-Stop or regress if there is sharp pain, pinching, numbness or a sense of passive joint loading replacing muscular work.
+The dominant sensation should be muscular work through the front hamstring / glute complex and rear glute / hip musculature, with the rest of the lower body stabilizing the position. Avoid sharp pressure in either knee, hip pinching, numbness or passive joint loading.
 
 ## Learn Mode sequence
 
-### Step 1 — Build the stance
-Use a support. Find a front-back stance wide enough to descend without balance being the main problem.
+### Step 1 — Build a long split stance
+Use a wall, rack or rail for balance. Place the rear leg far enough back that the stance feels clearly longer than a normal stationary lunge.
 
-### Step 2 — Establish front-foot pressure
-Keep heel, base of the big toe and base of the little toe in contact.
+### Step 2 — Set the front shin
+Adjust stance length until the front lower leg is close to vertical at the intended working depth.
 
-### Step 3 — Track the knee
-Allow the knee to follow the general line of the toes without collapsing inward.
+### Step 3 — Set the front thigh and torso
+Descend toward a front-thigh-parallel position while keeping the torso tall and controlled.
 
-### Step 4 — Organize pelvis and torso
-Stay tall / controlled enough that the trunk does not simply fall onto the front leg.
+### Step 4 — Establish the front hamstring drag
+At low effort, try to scrape / drag the front foot backward without letting it move. Confirm the front hamstring turns on.
 
-### Step 5 — Find a sustainable bottom position
-Descend until muscular loading is obvious but alignment can still be maintained.
+### Step 5 — Establish rear-glute intent
+Drive the rear foot backward into the floor and feel the rear glute engage. A second useful cue is to imagine pulling the rear thigh forward while the foot remains fixed.
 
-### Step 6 — Learn front-leg intent
-At low effort, create a pulling action through the front leg without visibly moving the foot.
+### Step 6 — Learn the scissor action
+Combine the front-foot drag-back and rear-leg drive so the legs feel as if they are trying to close like scissors.
 
-### Step 7 — Add rear-leg tension
-Actively engage the rear leg rather than resting on it.
+### Step 7 — Maintain posture under intent
+Increase muscular effort without letting the front knee collapse inward, the torso fold forward or the rear leg become passive.
 
-### Step 8 — Combine the forces
-Maintain posture while increasing simultaneous front- and rear-leg intent.
+### Step 8 — Add Extreme-Iso depth
+Continue pulling into the deepest controllable position while preserving the same scissor intent.
 
-### Step 9 — Add the Extreme-Iso intention
-Attempt to move deeper through muscular effort while keeping all alignment landmarks intact.
-
-### Competency hold
-
-10–15 seconds of clean position at moderate effort with no loss of foot pressure, knee tracking or torso control.
+### Step 9 — Competency hold
+Perform 10–15 seconds at moderate effort with uninterrupted front-hamstring and rear-glute intent and no visible compensation.
 
 ## Common compensations
 
-- **Front heel lifts:** reduce depth or adjust stance.
-- **Knee collapses inward:** reduce depth, widen stance slightly and re-establish foot pressure.
-- **Torso folds onto thigh:** reduce depth and restore trunk control.
-- **Rear leg becomes passive:** deliberately re-engage it.
-- **Position is held passively:** re-cue active pulling / intent.
+- **Front quad dominates and hamstring disappears:** reduce depth or effort, then re-establish the front-foot drag-back cue.
+- **Front knee travels excessively forward for the classic version:** lengthen the stance and restore a more vertical front shin.
+- **Torso folds onto the thigh:** reduce depth and restore tall posture.
+- **Rear leg becomes passive:** deliberately re-engage the rear glute / rear-foot drive.
+- **Feet line up like a tightrope:** widen the tracks slightly for stability.
+- **Passive bottom hold:** stop, reset and rebuild the scissor action.
 
 ## Regressions
 
-- hands on wall / rail / rack;
+- hand support on wall / rail / rack;
 - shallower depth;
-- shorter competency holds;
-- reduced intent.
+- reduced intent;
+- short 5–10 second teaching efforts;
+- split the drill into front-hamstring-only and rear-glute-only practice before combining them.
 
 ## Advanced variations
 
 - front-foot elevation;
-- rear-foot elevation where technically justified;
+- rear-foot elevation;
 - longer accumulated duration;
 - external load;
 - Extreme Slow split squat;
-- later pairing with dynamic or rebound work.
+- later pairing with dynamic / rebound work.
 
 ## Workout-mode cues
 
-**Full front-foot pressure • square / controlled pelvis • actively pull deeper**
+**Long stance • front shin tall • drag front foot back • drive rear leg back • scissor the legs together**
 
 ## Targeted strap version — concept
 
-Use a non-elastic adjustable strap to reduce balance demands or create an immovable resistance vector while the athlete maintains the split stance. This version should complement, not replace, the integrated lunge.
+A non-elastic strap can reduce balance demand or provide an immovable resistance vector while the athlete maintains the split stance. This remains an **Evidence-Based Extension** and should complement, not replace, the integrated lunge.
 
-Exact strap routing and force direction remain to be mechanically validated before publication.
+Exact routing should be validated separately before publication.
 
-## Open research questions
+## Remaining research questions
 
-1. Lock the most faithful EVO front-leg and rear-leg internal force cues.
-2. Clarify historical shin-angle and stance-length recommendations across Schroeder / EVO sources.
-3. Compare front-foot and rear-foot elevated variants.
-4. Validate whether a strap version adds unique value or simply duplicates the integrated position.
+1. Determine whether we want one default heel strategy in the consumer manual or present flat-ground and slightly elevated-heel versions side by side.
+2. Decide how much individual anthropometry should modify the front-thigh-parallel target.
+3. Validate a strap version that adds unique value rather than duplicating the integrated position.
