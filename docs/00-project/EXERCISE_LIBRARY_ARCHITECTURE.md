@@ -19,7 +19,22 @@ Every exercise or technical cue should be tagged as one of:
 
 No extension should be presented as something Schroeder personally taught unless the source supports that claim.
 
-## Candidate movement families
+## Post-audit programming tiers
+
+The 2026-09-10 whole-library audit established three practical tiers so that the system does not become a catalog of equally weighted variations.
+
+### Tier A — Programming Core
+Movements with the strongest combination of historical importance, distinct training value, technical clarity and programming usefulness. Beginner and intermediate programs should be built primarily from this tier.
+
+### Tier B — Secondary / Developmental
+Useful exercises that solve a specific need, add a distinct stimulus, serve as a progression/regression, or become valuable after the trainee has mastered the core.
+
+### Tier C — Optional / Accessory
+Technically usable movements that are redundant, highly isolated, equipment-dependent, or insufficiently distinct to deserve routine programming. These remain documented but are not default program content.
+
+See [Exercise Master List](../02-exercises/EXERCISE_MASTER_LIST.md) and [Whole-Library Technical Audit](../01-research/WHOLE_LIBRARY_TECHNICAL_AUDIT_2026-09-10.md).
+
+## Locked movement families
 
 1. Split stance / lunge
 2. Squat / knee-dominant
@@ -33,9 +48,9 @@ No extension should be presented as something Schroeder personally taught unless
 10. Adductor / lateral stance
 11. Hip-flexor / long split
 12. Shoulder rotation / stabilization
-13. Quadriceps long-length / sissy or knee-extension family
+13. Anterior chain / quadriceps
 
-This list is a working architecture. Families may be merged or removed after technical validation.
+The family architecture is now considered locked for programming. Individual variants can still be reclassified between tiers if later testing or evidence justifies it.
 
 ## Validation standard
 
@@ -66,4 +81,11 @@ Difficulty should not be defined mainly by adding endless new exercises. A famil
 
 **Assisted position → standard Extreme Iso → longer accumulated work → loaded / harder leverage → Extreme Slow → force-absorption / rebound integration → reactive expression**
 
-Programming will be written only after the core exercise specifications are validated.
+Two variables must remain distinct:
+
+- **Duration / accumulated time**
+- **Contraction intensity / intent**
+
+A long hold is not automatically a maximal-intent hold, and maximal-intent work does not automatically need long duration.
+
+Programming will now be written from the audited Tier A core, with Tier B used selectively and Tier C reserved for special cases.
