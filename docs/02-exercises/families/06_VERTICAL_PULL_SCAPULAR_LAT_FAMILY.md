@@ -2,11 +2,13 @@
 
 ## Status
 
-**Initial technical draft — requires deeper source and biomechanics validation before publication.**
+**Partially validated draft — historical inclusion is secure; exact scapular geometry remains less directly documented than the lunge and push-up.**
+
+See: [Deep Validation — First Three Families](../../01-research/FIRST_THREE_FAMILIES_DEEP_VALIDATION_2026-09-10.md)
 
 ## Family role
 
-This family combines shoulder-girdle control with long-position lat / upper-back loading. It is especially important because an Extreme Iso should not become a passive dead hang.
+This family develops active overhead shoulder-girdle control, lat / upper-back tension and the ability to remain muscularly engaged in a long overhead position rather than collapsing into a passive hang.
 
 ## Primary versions
 
@@ -23,158 +25,131 @@ This family combines shoulder-girdle control with long-position lat / upper-back
 ### C. Strap Lat Pulldown / Straight-Arm Pull
 - **Type:** Targeted
 - **Provenance:** Evidence-based extension
-- **Use:** Precise lat loading and high-intent pulling without grip or whole-body stabilization being the primary limiter
+- **Use:** Precise lat loading and high-intent pulling without grip or bodyweight being the primary limiter
 
-## Scapular Pull-Up / Hang — technical draft
+## What the historical record supports confidently
 
-### Purpose
+- The scapular pull-up is repeatedly listed among Schroeder's core Iso-Extreme positions.
+- A direct EVO trainee reported it as one of the first four positions prescribed alongside standing push-up, wall squat and lunge.
+- The drill involves active muscular control rather than a completely relaxed dead hang.
+- The athlete should learn to tolerate and control a long overhead position while maintaining muscular intent.
 
-Train active control of the shoulder girdle in an overhead position while maintaining trunk organization and muscular tension through the lats, scapular stabilizers and arms.
+## What we should NOT pretend is settled
 
-### Setup
+Current source material does not justify presenting any of the following as rigid Schroeder rules:
 
-- Use a secure pull-up bar or equivalent support.
-- Grip width should be comfortable and repeatable rather than arbitrarily wide.
-- Hands remain securely wrapped around the bar.
-- Head stays neutral rather than reaching forward.
-- Rib cage remains controlled rather than flaring excessively.
-- The shoulders should remain actively organized; the goal is not to collapse passively into the end range.
+- one exact grip width;
+- maximal scapular depression throughout the hold;
+- maximal retraction;
+- one mandatory elbow angle;
+- one exact rib-cage posture for all trainees.
 
-### Active intent
+These may be useful coaching choices, but the historical evidence is not strong enough to label them canonical.
 
-The defining action is to create **active scapular and lat tension while the body remains essentially stationary**.
+## Best current technical model
 
-For the current draft:
+The goal is **active length**, not simply "shoulders down as hard as possible."
 
-1. maintain a secure grip;
-2. create gentle downward / inward scapular tension rather than hanging entirely on passive structures;
-3. engage the lats as though trying to pull the upper arms down toward the torso;
-4. keep the trunk organized so the ribs do not flare as effort increases;
-5. if using a deeper overhead position, actively control that depth rather than simply relaxing into it.
-
-**Open item:** the exact Schroeder / EVO scapular position and force-direction language should be locked after primary-source review.
-
-### What should remain stable
-
-- grip;
-- head / neck position;
-- rib cage / pelvis relationship;
-- controlled shoulder position;
-- absence of uncontrolled swinging.
-
-### What you should feel
-
-Primary muscular work should be around the lats and scapular musculature with forearm / grip contribution. Avoid sharp superior-shoulder pain, numbness, tingling or a sense that the shoulder is simply hanging on passive structures.
+1. Establish a comfortable overhead grip.
+2. Use foot support if needed so the shoulder position can be explored without full bodyweight.
+3. Distinguish a completely passive hang from an actively supported one.
+4. Keep the elbows nearly straight during the scapular-learning phase so the exercise does not become a conventional pull-up.
+5. Generate lat / scapular tension while allowing enough overhead length that the lats are not simply shortened by maximal depression.
+6. Maintain trunk control so apparent shoulder range does not come entirely from lumbar extension / rib flare.
+7. Gradually explore a longer overhead position while keeping muscular support.
 
 ## Learn Mode sequence
 
-### Step 1 — Learn supported overhead position
-Use feet on the floor / box or another support so full bodyweight is not required.
+### Step 1 — Supported overhead position
+Place the feet on the floor or a box and grip a secure bar. Use only enough bodyweight to feel the shoulders loaded comfortably.
 
-### Step 2 — Establish grip
-Choose a comfortable width and secure hand position.
+### Step 2 — Feel passive versus active
+Briefly reduce shoulder effort, then lightly re-engage the shoulder girdle. Learn the difference without repeatedly dumping full bodyweight into passive end range.
 
-### Step 3 — Organize rib cage and pelvis
-Prevent excessive rib flare or lumbar extension.
+### Step 3 — Keep the elbows quiet
+Maintain nearly straight elbows so the learning task stays at the shoulder girdle rather than becoming an elbow-flexor pull.
 
-### Step 4 — Find passive versus active
-Briefly compare a relaxed supported hang with a lightly active shoulder position so the trainee can feel the difference.
+### Step 4 — Add lat intent
+Imagine trying to bring the upper arms toward the sides of the torso without actually bending the elbows into a pull-up.
 
-### Step 5 — Learn scapular tension
-Without bending the elbows much, gently create downward scapular movement / tension.
+### Step 5 — Preserve overhead length
+Do not aggressively jam the shoulders downward if doing so removes the lengthened-lat position. Maintain active support while keeping meaningful overhead reach.
 
-### Step 6 — Add lat intent
-Imagine trying to pull the upper arms toward the sides of the torso while the hands remain fixed.
+### Step 6 — Organize the trunk
+Keep the ribs and pelvis controlled enough that the overhead position comes from the shoulder complex rather than a large low-back arch.
 
-### Step 7 — Combine trunk and shoulder control
-Maintain the overhead position without shrugging, rib flare or swinging.
+### Step 7 — Increase loading
+Gradually remove foot support while preserving the same active shoulder sensation.
 
-### Step 8 — Increase Extreme-Iso intent
-Increase pulling intent while keeping the body nearly motionless and the shoulder position controlled.
+### Step 8 — Competency hold
+Perform 8–15 seconds with active shoulders, no uncontrolled swinging, no sharp shoulder discomfort and no collapse into a purely passive hang.
 
-### Step 9 — Competency hold
-Perform 8–15 seconds with active shoulders and no passive collapse.
+## What you should feel
+
+Muscular work around the lats and shoulder-girdle musculature, with normal grip / forearm contribution. Avoid superior-shoulder pinching, numbness, tingling or a sensation that the shoulder is simply hanging on ligaments / joint structures.
 
 ## Common compensations
 
-- **Passive shoulder hang:** reduce load with foot support and restore active tension.
-- **Rib flare / lumbar arch:** reduce effort and re-stack the trunk.
-- **Elbow-dominant pulling:** lower intensity and emphasize scapular / lat action.
-- **Shrugging toward ears:** reduce load and restore controlled scapular position.
-- **Swinging:** use support or a more stable setup.
+- **Completely passive hang:** restore foot support and active muscular tension.
+- **Maximal shoulder depression that shortens the position:** reduce depression and regain active overhead length.
+- **Large rib flare / lumbar arch:** reduce load and reorganize the trunk.
+- **Elbows bend into a pull-up:** lower effort and return focus to shoulder-girdle control.
+- **Swinging:** use more support or a more stable setup.
 
 ## Regressions
 
 - feet-supported bar hold;
-- band- or box-assisted hang;
-- shortened duration;
-- partial bodyweight.
+- box-supported hang;
+- partial bodyweight;
+- shorter duration;
+- strap pulldown learning drill before full bodyweight work.
 
 ## Advanced variations
 
-- full-bodyweight hold;
+- full bodyweight;
 - longer accumulated duration;
-- loaded hold where appropriate;
-- Extreme Slow scapular pull-up;
-- later pairing with pull-up / rebound-style vertical-pull work if technically justified.
+- external load only after the position is robust;
+- Extreme Slow scapular / vertical-pull work;
+- later integration with pull-up and reactive / dynamic pulling where appropriate.
 
 ## Workout-mode cues
 
-**Active shoulders • ribs controlled • pull upper arms down without moving**
+**Active, not passive • keep overhead length • elbows quiet • pull upper arms toward your sides**
 
 ---
 
 # Strap Lat Pulldown / Straight-Arm Pull
 
-## Concept
+## Classification
 
-Use a non-elastic strap anchored or routed so the arms are held at an overhead / lengthened lat angle. The athlete attempts to pull the arms downward against an immovable endpoint.
+**Evidence-Based Extension — targeted overcoming isometric.**
 
-## Why it belongs
+## Purpose
 
-This allows precise control over:
-
-- shoulder-flexion angle;
-- lat length;
-- contraction intensity;
-- grip contribution;
-- trunk stabilization demand.
-
-It complements the integrated hang rather than replacing it.
+Use a non-elastic strap and secure anchor / routing to hold the arms in a selected overhead angle while the athlete produces downward pulling intent against an immovable endpoint.
 
 ## Learn Mode sequence
 
-### Step 1 — Establish a secure strap setup
-Use only a structurally sound anchor / routing method and inspect the strap before use.
+1. Establish a structurally secure strap setup.
+2. Choose a tolerable overhead arm angle; do not force maximal flexion.
+3. Organize ribs and pelvis so the low back does not create false overhead range.
+4. Keep shoulders actively supported rather than jammed passively into end range.
+5. At low effort, attempt to drag the upper arms downward against the strap.
+6. Keep elbows nearly straight for the straight-arm version.
+7. Increase force gradually while preserving the selected shoulder angle.
+8. Perform a 6–10 second competency contraction before progressing intensity.
 
-### Step 2 — Choose the arm angle
-Begin with a tolerable overhead position rather than forcing maximal shoulder flexion.
+## Why it complements the integrated hang
 
-### Step 3 — Organize rib cage and pelvis
-Avoid gaining apparent overhead range by arching the low back.
-
-### Step 4 — Set the shoulders
-Keep the shoulder joint controlled rather than jammed into end range.
-
-### Step 5 — Learn lat intent
-At low effort, try to drag the upper arms downward while the strap prevents movement.
-
-### Step 6 — Maintain elbow strategy
-Use either nearly straight arms or a small consistent bend depending on the validated version; do not turn the exercise unintentionally into an elbow-flexor effort.
-
-### Step 7 — Increase force gradually
-Build tension without changing trunk or shoulder position.
-
-### Step 8 — Competency effort
-Perform a brief 6–10 second contraction while keeping the target angle stable.
+The strap version makes lat intent and joint angle easier to control and removes grip / bodyweight limitations. The integrated hang retains whole-body stabilization and real overhead load. Both therefore have a place in the system.
 
 ## Workout-mode cues
 
-**Ribs down • shoulders controlled • pull the upper arms down into the strap**
+**Ribs controlled • active overhead length • pull upper arms down into the strap**
 
-## Open research questions
+## Remaining research questions
 
-1. Lock the historical EVO scapular pull-up geometry and internal cueing.
-2. Determine the most appropriate distinction between active hang, scapular depression and lat-lengthened positioning.
-3. Validate strap anchor geometry and whether straight-arm versus bent-arm variants deserve separate prescriptions.
-4. Establish shoulder-screening / regression rules for trainees who cannot comfortably tolerate overhead loading.
+1. Locate stronger primary / near-primary descriptions of the canonical scapular pull-up position.
+2. Determine whether the historical drill intentionally alternated active and passive scapular states or whether that is a later coaching implementation.
+3. Decide whether a bent-arm vertical-pull Iso should become a separate intermediate / advanced variation.
+4. Establish screening and regression rules for trainees who cannot comfortably tolerate overhead bodyweight loading.
