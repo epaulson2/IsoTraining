@@ -26,42 +26,62 @@ jobs:
           dir=.asset-import/eccentric-batch-02
           [[ -s "$dir/COMPLETE" ]] && echo "ready=true" >> "$GITHUB_OUTPUT" || echo "ready=false" >> "$GITHUB_OUTPUT"
 
-      - name: Decode Batch 02 images
+      - name: Decode Batch 02 images robustly
         if: steps.ready.outputs.ready == 'true'
         shell: bash
         run: |
           set -euo pipefail
-          d=.asset-import/eccentric-batch-02
-          decode() { mkdir -p "$(dirname "$2")"; base64 --decode "$1" > "$2"; }
-          decode "$d/LM03.b64" assets/eccentric-overload/core-6/03-supported-sissy-squat/LM03_supported_sissy_squat.webp
-          decode "$d/LL03.b64" assets/eccentric-overload/core-6/03-supported-sissy-squat/LL03_supported_sissy_squat_ladder.webp
-          decode "$d/WP03.b64" assets/eccentric-overload/core-6/03-supported-sissy-squat/WP03_supported_sissy_squat.webp
-          decode "$d/LM04.b64" assets/eccentric-overload/core-6/04-assisted-nordic/LM04_assisted_nordic.webp
-          decode "$d/LL04.b64" assets/eccentric-overload/core-6/04-assisted-nordic/LL04_assisted_nordic_ladder.webp
-          decode "$d/WP04.b64" assets/eccentric-overload/core-6/04-assisted-nordic/WP04_assisted_nordic.webp
-          decode "$d/LM05.b64" assets/eccentric-overload/core-6/05-ring-fallout/LM05_ring_fallout.webp
-          decode "$d/LL05.b64" assets/eccentric-overload/core-6/05-ring-fallout/LL05_ring_fallout_ladder.webp
-          decode "$d/WP05.b64" assets/eccentric-overload/core-6/05-ring-fallout/WP05_ring_fallout.webp
-          decode "$d/LM06.b64" assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp
+          python3 - <<'PY'
+          import base64, re
+          from pathlib import Path
+          d=Path('.asset-import/eccentric-batch-02')
+          mapping={
+            'LM03.b64':'assets/eccentric-overload/core-6/03-supported-sissy-squat/LM03_supported_sissy_squat.webp',
+            'LL03.b64':'assets/eccentric-overload/core-6/03-supported-sissy-squat/LL03_supported_sissy_squat_ladder.webp',
+            'WP03.b64':'assets/eccentric-overload/core-6/03-supported-sissy-squat/WP03_supported_sissy_squat.webp',
+            'LM04.b64':'assets/eccentric-overload/core-6/04-assisted-nordic/LM04_assisted_nordic.webp',
+            'LL04.b64':'assets/eccentric-overload/core-6/04-assisted-nordic/LL04_assisted_nordic_ladder.webp',
+            'WP04.b64':'assets/eccentric-overload/core-6/04-assisted-nordic/WP04_assisted_nordic.webp',
+            'LM05.b64':'assets/eccentric-overload/core-6/05-ring-fallout/LM05_ring_fallout.webp',
+            'LL05.b64':'assets/eccentric-overload/core-6/05-ring-fallout/LL05_ring_fallout_ladder.webp',
+            'WP05.b64':'assets/eccentric-overload/core-6/05-ring-fallout/WP05_ring_fallout.webp',
+            'LM06.b64':'assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp',
+          }
+          for src,dst in mapping.items():
+              p=d/src
+              if not p.exists(): raise SystemExit(f'Missing staged payload: {p}')
+              s=re.sub(r'[^A-Za-z0-9+/=]', '', p.read_text())
+              s += '='*((4-len(s)%4)%4)
+              data=base64.b64decode(s, validate=False)
+              out=Path(dst); out.parent.mkdir(parents=True, exist_ok=True); out.write_bytes(data)
+          PY
 
       - name: Verify canonical Batch 02 images
         if: steps.ready.outputs.ready == 'true'
         shell: bash
         run: |
           set -euo pipefail
-          expected=(
-            assets/eccentric-overload/core-6/03-supported-sissy-squat/LM03_supported_sissy_squat.webp
-            assets/eccentric-overload/core-6/03-supported-sissy-squat/LL03_supported_sissy_squat_ladder.webp
-            assets/eccentric-overload/core-6/03-supported-sissy-squat/WP03_supported_sissy_squat.webp
-            assets/eccentric-overload/core-6/04-assisted-nordic/LM04_assisted_nordic.webp
-            assets/eccentric-overload/core-6/04-assisted-nordic/LL04_assisted_nordic_ladder.webp
-            assets/eccentric-overload/core-6/04-assisted-nordic/WP04_assisted_nordic.webp
-            assets/eccentric-overload/core-6/05-ring-fallout/LM05_ring_fallout.webp
-            assets/eccentric-overload/core-6/05-ring-fallout/LL05_ring_fallout_ladder.webp
-            assets/eccentric-overload/core-6/05-ring-fallout/WP05_ring_fallout.webp
-            assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp
-          )
-          for f in "${expected[@]}"; do test -s "$f" || { echo "Missing: $f"; exit 1; }; done
+          python3 - <<'PY'
+          from pathlib import Path
+          expected=[
+            'assets/eccentric-overload/core-6/03-supported-sissy-squat/LM03_supported_sissy_squat.webp',
+            'assets/eccentric-overload/core-6/03-supported-sissy-squat/LL03_supported_sissy_squat_ladder.webp',
+            'assets/eccentric-overload/core-6/03-supported-sissy-squat/WP03_supported_sissy_squat.webp',
+            'assets/eccentric-overload/core-6/04-assisted-nordic/LM04_assisted_nordic.webp',
+            'assets/eccentric-overload/core-6/04-assisted-nordic/LL04_assisted_nordic_ladder.webp',
+            'assets/eccentric-overload/core-6/04-assisted-nordic/WP04_assisted_nordic.webp',
+            'assets/eccentric-overload/core-6/05-ring-fallout/LM05_ring_fallout.webp',
+            'assets/eccentric-overload/core-6/05-ring-fallout/LL05_ring_fallout_ladder.webp',
+            'assets/eccentric-overload/core-6/05-ring-fallout/WP05_ring_fallout.webp',
+            'assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp',
+          ]
+          for name in expected:
+              p=Path(name); data=p.read_bytes()
+              assert data[:4]==b'RIFF' and data[8:12]==b'WEBP', f'Not WebP: {name}'
+              declared=int.from_bytes(data[4:8], 'little')+8
+              assert declared==len(data), f'Truncated WebP {name}: declared {declared}, got {len(data)}'
+              print(name, len(data), 'OK')
+          PY
 
       - name: Commit imported assets and remove staging
         if: steps.ready.outputs.ready == 'true'
