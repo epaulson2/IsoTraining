@@ -36,23 +36,33 @@ jobs:
           from pathlib import Path
           d=Path('.asset-import/eccentric-batch-02')
           mapping={
-            'LM03.b64':'assets/eccentric-overload/core-6/03-supported-sissy-squat/LM03_supported_sissy_squat.webp',
-            'LL03.b64':'assets/eccentric-overload/core-6/03-supported-sissy-squat/LL03_supported_sissy_squat_ladder.webp',
-            'WP03.b64':'assets/eccentric-overload/core-6/03-supported-sissy-squat/WP03_supported_sissy_squat.webp',
-            'LM04.b64':'assets/eccentric-overload/core-6/04-assisted-nordic/LM04_assisted_nordic.webp',
-            'LL04.b64':'assets/eccentric-overload/core-6/04-assisted-nordic/LL04_assisted_nordic_ladder.webp',
-            'WP04.b64':'assets/eccentric-overload/core-6/04-assisted-nordic/WP04_assisted_nordic.webp',
-            'LM05.b64':'assets/eccentric-overload/core-6/05-ring-fallout/LM05_ring_fallout.webp',
-            'LL05.b64':'assets/eccentric-overload/core-6/05-ring-fallout/LL05_ring_fallout_ladder.webp',
-            'WP05.b64':'assets/eccentric-overload/core-6/05-ring-fallout/WP05_ring_fallout.webp',
-            'LM06.b64':'assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp',
+            'LM03':'assets/eccentric-overload/core-6/03-supported-sissy-squat/LM03_supported_sissy_squat.webp',
+            'LL03':'assets/eccentric-overload/core-6/03-supported-sissy-squat/LL03_supported_sissy_squat_ladder.webp',
+            'WP03':'assets/eccentric-overload/core-6/03-supported-sissy-squat/WP03_supported_sissy_squat.webp',
+            'LM04':'assets/eccentric-overload/core-6/04-assisted-nordic/LM04_assisted_nordic.webp',
+            'LL04':'assets/eccentric-overload/core-6/04-assisted-nordic/LL04_assisted_nordic_ladder.webp',
+            'WP04':'assets/eccentric-overload/core-6/04-assisted-nordic/WP04_assisted_nordic.webp',
+            'LM05':'assets/eccentric-overload/core-6/05-ring-fallout/LM05_ring_fallout.webp',
+            'LL05':'assets/eccentric-overload/core-6/05-ring-fallout/LL05_ring_fallout_ladder.webp',
+            'WP05':'assets/eccentric-overload/core-6/05-ring-fallout/WP05_ring_fallout.webp',
+            'LM06':'assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp',
           }
-          for src,dst in mapping.items():
-              p=d/src
-              if not p.exists(): raise SystemExit(f'Missing staged payload: {p}')
-              s=re.sub(r'[^A-Za-z0-9+/=]', '', p.read_text())
+          def payload(stem):
+              parts=sorted(d.glob(stem+'_part_*.b64'))
+              if parts:
+                  print(stem, 'using', len(parts), 'chunks')
+                  raw=''.join(p.read_text() for p in parts)
+              else:
+                  p=d/(stem+'.b64')
+                  if not p.exists(): raise SystemExit(f'Missing staged payload for {stem}')
+                  raw=p.read_text()
+              s=re.sub(r'[^A-Za-z0-9+/=]', '', raw)
+              if len(s)%4==1:
+                  raise SystemExit(f'Malformed payload {stem}: base64 length {len(s)}')
               s += '='*((4-len(s)%4)%4)
-              data=base64.b64decode(s, validate=False)
+              return base64.b64decode(s, validate=False)
+          for stem,dst in mapping.items():
+              data=payload(stem)
               out=Path(dst); out.parent.mkdir(parents=True, exist_ok=True); out.write_bytes(data)
           PY
 
@@ -76,7 +86,7 @@ jobs:
             'assets/eccentric-overload/core-6/06-assisted-pullup/LM06_assisted_pullup.webp',
           ]
           for name in expected:
-              p=Path(name); data=p.read_bytes()
+              data=Path(name).read_bytes()
               assert data[:4]==b'RIFF' and data[8:12]==b'WEBP', f'Not WebP: {name}'
               declared=int.from_bytes(data[4:8], 'little')+8
               assert declared==len(data), f'Truncated WebP {name}: declared {declared}, got {len(data)}'
