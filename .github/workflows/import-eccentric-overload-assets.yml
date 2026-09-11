@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '.asset-import/eccentric-batch-01-v2/**'
+      - '.asset-import/eccentric-batch-01-v3/**'
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          dir=.asset-import/eccentric-batch-01-v2
+          dir=.asset-import/eccentric-batch-01-v3
           if [[ -s "$dir/COMPLETE" ]]; then
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
@@ -35,7 +35,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          dir=.asset-import/eccentric-batch-01-v2
+          dir=.asset-import/eccentric-batch-01-v3
           test -n "$(find "$dir" -maxdepth 1 -name 'part_*.txt' -print -quit)"
           cat "$dir"/part_*.txt | base64 --decode > /tmp/eccentric-batch-01.zip
           unzip -q -o /tmp/eccentric-batch-01.zip -d .
@@ -66,7 +66,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf .asset-import/eccentric-batch-01-v2 .asset-import/eccentric-batch-01
+          rm -rf .asset-import/eccentric-batch-01-v3 .asset-import/eccentric-batch-01-v2 .asset-import/eccentric-batch-01
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add assets/eccentric-overload .asset-import
