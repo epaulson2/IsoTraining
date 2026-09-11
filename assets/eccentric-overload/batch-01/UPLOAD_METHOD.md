@@ -1,0 +1,1 @@
+The ChatGPT GitHub connector does not accept a local binary path in the file-write action. Batch assets are therefore transferred as Git blobs / importer payloads rather than by pretending a text-file write can preserve binary bytes. This note exists only to document the transfer method and can be removed after all canonical binaries are present.
